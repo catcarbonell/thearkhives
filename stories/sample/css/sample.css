@@ -1,0 +1,75 @@
+/******** SAMPLE STORY PAGE  ***********/
+
+
+#menu ul{
+/*	display: hide;
+*/	background-color: #333;
+width: 25%;
+height: 100%;
+z-index: 9000;
+}
+
+#menu li, #menu a:link, #menu a:visited{
+	list-style: none;
+	color: #efefef;
+	padding: 5px 10px;
+}
+
+#nav a:link, a:visited{
+	color: #9c8844;
+}
+
+#share-link {
+	float: right;
+}
+
+#menu-link{
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+
+#title {
+	margin: 0;
+	width: 100%;
+}
+
+#page-title {
+	width: 75%;
+	max-width: 75%;
+	padding: 5%;
+}
+
+#page-title h1 {
+	font-size: 2em;
+	color: #9c8844;
+}
+
+
+.story-container {
+	width: 75%;
+	margin: 15% auto;
+}
+
+
+#page-01 {
+	text-align: center;
+}
+
+#page-02 img {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+#page-03 {
+	text-align: right;
+}
+
+#page-03 img {
+	width: 50%;
+	margin: 0 auto;
+}
