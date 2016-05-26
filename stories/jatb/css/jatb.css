@@ -1,9 +1,43 @@
+/******** SAMPLE STORY PAGE  ***********/
+
+/* MENU */
+#menu ul{
+/*	display: hide;
+*/	background-color: #333;
+width: 25%;
+height: 100%;
+z-index: 9000;
+}
+
+#menu li, #menu a:link, #menu a:visited{
+	list-style: none;
+	color: #efefef;
+	padding: 5px 10px;
+}
+
+/* NAVIGATION */
+
+#nav a:link, a:visited{
+	color: #9c8844;
+}
+
+#share-link {
+	float: right;
+}
+
+#menu-link{
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+/* STORY SECTIONS */
+
 #title {
 	margin: 0;
 	width: 100%;
-    /*background-image: url('../img/jatb-01.svg');
-    background-size: cover;
-    background-repeat: no-repeat;*/
 }
 
 #story-title {
