@@ -2,11 +2,11 @@
 
 /* MENU */
 #menu ul{
-/*	display: hide;
-*/	background-color: #333;
-width: 25%;
-height: 100%;
-z-index: 9000;
+	/*display: none;*/
+	background-color: #333;
+	width: 25%;
+	height: 100%;
+	z-index: 9000;
 }
 
 #menu li, #menu a:link, #menu a:visited{
