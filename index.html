@@ -12,33 +12,36 @@
     <!-- CSS -->
     
     <link rel="stylesheet" href="assets/skeleton/css/normalize.css">
+
     <link rel="stylesheet" href="assets/skeleton/css/skeleton.css">
     
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
 
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
-
+    
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- TRANSITION ANIMATION CSS -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
 
 </head>
 
-<body>
+<body class="animsition">
  <div class="container">
     <!-- NAVIGATION -->
     
 
         <div class="row" id="nav">
             <ul>
-                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="about.html" class="animsition-link">ABOUT</a></li>
                 <li><a href="#archive">STORIES</a></li>
-                <li><a href="#search">SEARCH</a></li>
+                <li><a id="search-link" href="#search">SEARCH</a></li>
             </ul>
 
-            <form id="search">
+            <div id="searchbar">
                 <input type="text" /><button class="input"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
-            </form>
+            </div>
         </div>
 
     <!-- TITLE -->
@@ -54,13 +57,13 @@
             
              <div class="story-title six columns" id="1">
             
-                 <a href="stories/sample/index.html"><h1>YOU</h1><h4>and the <br /> Sample Story</h4></a>
+                 <a href="stories/sample/index.html" class="animsition-link"><h1>YOU</h1><h4>and the <br /> Sample Story</h4></a>
 
              </div>
 
              <div class="story-title six columns" id="2">
         
-                 <a href="stories/jatb/index.html"><img src="stories/jatb/img/jatb-logo.png" alt="Jack and the Beanstalk"></a>
+                 <a href="stories/jatb/index.html" class="animsition-link"><img src="stories/jatb/img/jatb-logo.png" alt="Jack and the Beanstalk"></a>
             </div>
 
 
@@ -102,6 +105,10 @@
     integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
     crossorigin="anonymous">
 </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+
+<script src="js/main.js"> </script>
 
     
 </body>
