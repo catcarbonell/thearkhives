@@ -20,12 +20,16 @@
 
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- TRANSITION ANIMATION CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
 
 
 </head>
 
-<body>
+<body class="animsition">
  <div class="container">
+
     <!-- NAVIGATION -->
     
 
@@ -33,17 +37,19 @@
             <ul>
                 <li class="link-active">ABOUT</li>
                 <li><a href="index.html#archive">STORIES</a></li>
-                <li><a href="#search">SEARCH</a></li>
+                <li><a id="search-link" href="#search">SEARCH</a></li>
             </ul>
 
-            <form id="search">
+            <!-- SEARCH BAR -->
+
+            <div id="searchbar">
                 <input type="text" /><button class="input"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
-            </form>
+            </div>
         </div>
 
     <!-- TITLE -->
         <div class="row" id="title">
-                <a href="index.html"><img src="img/logo.png" alt="The ARKHIVES Logo" id="logo"/></a>
+                <a href="index.html" class="animsition-link"><img src="img/logo.png" alt="The ARKHIVES Logo" id="logo"/></a>
         </div>
     
    
@@ -98,6 +104,11 @@
     integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="
     crossorigin="anonymous">
 </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+
+<script src="js/main.js"> </script>
 
     
 </body>

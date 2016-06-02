@@ -4,6 +4,7 @@
 #menu ul{
 /*	display: none;
 */	background-color: #333;
+margin-top: 0;
 width: 25%;
 height: 100%;
 z-index: 9000;
