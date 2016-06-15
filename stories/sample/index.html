@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="../../assets/skeleton/css/normalize.css">
     <link rel="stylesheet" href="../../assets/skeleton/css/skeleton.css">
      <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="../assets/css/animate.css">
 	<link rel="stylesheet" href="../../css/main.css">
 	<link rel="stylesheet" href="css/sample.css">
 
@@ -59,7 +60,7 @@
 		<p>
 			<h3>Once upon a time, there was a story...</h3>
 		</p>
-		<img src="img/storybook.png" alt="a storybook">
+		<img class="animated wow slideInLeft" data-wow-offset="500" src="img/storybook.png" alt="a storybook">
 	
 	</div> <!-- CLOSE PAGE-01 -->
 
@@ -71,7 +72,7 @@
 				<h3>consisting of nothing but words to describe it.</h3>
 			</p>
 
-			<img src="img/storybook-open.png" alt="a storybook opened">
+			<img class="animated wow fadeInDown" src="img/storybook-open.png" alt="a storybook opened">
 
 	</div> <!-- CLOSE PAGE-02 -->
 
@@ -83,7 +84,7 @@
 				<h3>the point of telling the story was made.</h3>
 			</p>
 
-			<img src="img/storybook-end.png" alt="a storybook closed" >
+			<img class="animated wow slideInRight" src="img/storybook-end.png" alt="a storybook closed" >
 
 	</div> <!-- CLOSE PAGE-02 -->
 
@@ -124,7 +125,20 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 
-<script src="assets/stickUp.min.js"></script>
+
+ <script src="../assets/js/wow.min.js"></script>
+ <script>
+      wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       1000,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    new WOW().init();
+ </script>
 
 <script src="js/main.js"></script>
 
