@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Jack and the Beanstalk</title>
+	<title>Jack and Jill</title>
 
 	<link rel="stylesheet" href="../../assets/skeleton/css/normalize.css">
     <link rel="stylesheet" href="../../assets/skeleton/css/skeleton.css">
-     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
 	<link rel="stylesheet" href="../../css/main.css">
-	<link rel="stylesheet" href="css/jatb.css">
+	<link rel="stylesheet" href="css/jnj.css">
 	 <!-- TRANSITION ANIMATION CSS -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css">
@@ -43,32 +44,50 @@
 
 	<div id="title">
 		
-		<div class="page">
+		<div>
 		
-		<img src="img/jatb-logo.png" alt="Jack and the Beanstalk title" id="story-title" />
+    <h1>Jack and Jill</h1>
 		
 		</div> <!-- CLOSE CONTAINER -->
 
 	</div><!-- CLOSE TITLE -->
 
-<div id="page-01" class="story-container page">
-		<p>
-		<h3>Jack planted many seeds in hopes for a good crop this season...</h3>
-		</p>
-		<img src="img/jatb-01.svg" alt="Jack planted many seeds in hopes for a good crop this season">
-	
-</div> <!-- CLOSE PAGE-01 -->
+      <h3 class="animated wow fadeInDown text">Jack and Jill went up the hill to fetch a pail of water.</h3>
 
-<div id="page-01" class="story-container page">
-		<p>
-		<h3>Over night, a giant beanstalk grew, piercing the sky.</h3>
-		</p>
-		<img src="img/jatb-02.svg" alt="Over night, a giant beanstalk grew, piercing the sky.">
-	
-</div> <!-- CLOSE PAGE-01 -->
+    <div id="page-01" class="story-container page">
+
+  
+        <div id="jnj-01-div">
+
+		<img src="img/jnj-01-jack.png" class="animated wow slideInLeft" data-wow-offset="500" alt="Jack and Jill went up the hill...">
+        <img src="img/jnj-01-jill.png" class="animated wow slideInRight" data-wow-offset="700" alt="...to fetch a pail of water.">
 
 
-	<div id="footer">
+        </div>
+
+
+
+
+    </div> <!-- CLOSE PAGE-01 -->
+
+	<div id="page-02" class="story-container page">
+    
+        <h3 class="animated wow fadeInDown text">Jack fell down and broke his crown, and Jill came tumbling after</h3>
+       
+        <img src="img/jnj-02-jack.png" class="animated wow slideInRight left" data-wow-offset="500" alt="Jack fell down and broke his crown">
+
+        <img src="img/jnj-02-jill.png" class="animated wow slideInRight right" data-wow-offset="1000"  alt="...and Jill came tumbling after.">
+
+
+       
+      
+    </div> <!-- CLOSE PAGE-02-->
+
+
+
+
+
+	<div id="footer" class="clear">
     <!-- FOOTER -->
     <div class="row container" id="footer-content">
 
@@ -104,6 +123,19 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 
+ <script src="../assets/js/wow.min.js"></script>
+ <script>
+      wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       1000,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    new WOW().init();
+ </script>
 
 <script src="js/main.js"></script>
 

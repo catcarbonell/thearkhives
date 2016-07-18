@@ -1,9 +1,13 @@
-/******** JACK AND THE BEANSTALK  ***********/
+/******** JACK AND JILL  ***********/
 
 /* GLOBAL */
 
+
 h3 {
 	text-align: center;
+	text-shadow: 2px 2px 4px #fff;
+	margin: 0;
+	padding: 0;
 }
 
 /* MENU */
@@ -32,7 +36,7 @@ h3 {
 /* NAVIGATION */
 
 #nav {
-	background-color: rgba(255,255,255, 0.);
+	background-color: rgba(255,255,255, 0.5);
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -78,6 +82,51 @@ margin: 0 200px 30px 200px;
 }
 
 .page {
-	margin: 0;
+	margin: 0 auto;
+	padding: 0;
 	width: 100%;
 }
+
+
+
+.text {
+	/*padding: 0 100px;*/
+	margin: 100px;
+}
+
+.story-container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*.story-container img {
+	width: 25%;
+}*/
+
+#page-01 {
+	background: url('../img/jnj-01-bg.png') no-repeat center center; 
+	background-size: contain;
+	
+}
+
+#page-01 img {
+	width: 25%;
+}
+
+#jnj-01-div {
+	width: 75%;
+	margin: 0 auto;
+	padding-left: 20%;
+}
+
+
+#page-02 {
+	background: url('../img/jnj-02-bg.png') no-repeat center center; 
+	background-size: contain;
+
+	margin-bottom: 100px;
+}
+
+
+
