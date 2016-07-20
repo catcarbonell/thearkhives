@@ -158,6 +158,7 @@ button {
 }
 
 #mc_embed_signup {
+    margin: 0 auto;
     width:250px;
 }
 
