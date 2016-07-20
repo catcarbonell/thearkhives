@@ -1,4 +1,4 @@
-// *** MAIN JS for JATB *** //
+// *** MAIN JS for JNJ *** //
 
 $(document).ready(function(){
 
