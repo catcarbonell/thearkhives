@@ -157,6 +157,10 @@ button {
     margin-bottom: 30%;
 }
 
+#mc_embed_signup {
+    width:250px;
+}
+
 
 /* MEDIA QUERIES */
 
