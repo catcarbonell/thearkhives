@@ -1,14 +1,14 @@
 [
 	{
 		"title" : "Jack and Jill",
-		"link" : "thearkhives/stories/jnj/index.html",
+		"link" : "stories/jnj/index.html",
 		"genre" : "Classic",
 		"audience" : "All"
 	},
 
 	{
 		"title" : "You and the Sample Story",
-		"link" : "thearkhives/stories/sample/index.html",
+		"link" : "stories/sample/index.html",
 		"genre" : "Original", 
 		"audience" : "All"
 
