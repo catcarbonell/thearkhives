@@ -102,6 +102,17 @@ button {
     }
 
 
+/* SEARCH BAR */
+
+#searchbar {
+    width: 75%;
+    margin: 0 auto 5% auto;
+
+}
+
+#searchbar input{
+    width: 95%;
+}
 
 /* STORIES */
 
@@ -113,7 +124,7 @@ button {
 
 .story-title {
     margin: 1px;
-    padding: 20px;
+    padding: 30px;
     background-color: rgba(255,255,255 0.5);
     text-align: center;
 }
@@ -127,6 +138,8 @@ button {
 .stories img:hover {
         opacity: 1;
     }
+
+
 
 /* FOOTER */
 

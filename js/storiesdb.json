@@ -1,0 +1,17 @@
+[
+	{
+		"title" : "Jack and Jill",
+		"link" : "../stories/jnj/index.html",
+		"genre" : "Classic",
+		"audience" : "All"
+	},
+
+	{
+		"title" : "You and the Sample Story",
+		"link" : "../stories/sample/index.html",
+		"genre" : "Original", 
+		"audience" : "All"
+
+	}
+
+]

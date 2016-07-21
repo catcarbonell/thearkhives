@@ -2,19 +2,6 @@
 
 $(document).ready(function(){
 
-	// SEARCH input hiding
-	$('#searchbar').hide();
-	
-	// When 'SEARCH' link is clicked, the search bar pops up!
-	$('#search-link').click(function(){
-
-		console.log('clicky');
-		
-		$('#searchbar').slideToggle();
-
-	});
-
-
 
 	// ANIMSITION
 
