@@ -65,7 +65,7 @@
     <!-- STORIES CONTAINER -->
          <div data-ng-controller="MainCtrl" class="row stories" id="archive"> 
             
-             <div data-ng-repeat="story in stories | filter:searchStories:true" class="story-title eleven columns">
+             <div data-ng-repeat="story in stories | filter:searchStories:false|undefined" class="story-title eleven columns">
                 
                 <h1><a href="{{story.link}}">{{story.title}}</a></h1> 
                 <h5>Genre: {{story.genre}} | Audience: {{story.audience}}</h5>
