@@ -37,8 +37,8 @@
 
         <div class="row" id="nav">
             <ul>
-                <li><a href="#about-desc">ABOUT</a></li>
-                <li><a href="#searchbar">BROWSE/SEARCH the ARKHIVES</a></li>
+                <li><a href="about.html" class="animsition-link">ABOUT</a></li>
+                <li class="link-active">BROWSE/SEARCH the ARKHIVES</li>
             </ul>
         </div> <!-- CLOSE NAV -->
 
@@ -47,28 +47,13 @@
                 <img src="img/logo.png" alt="The ARKHIVES Logo" id="logo"/>
         </div><!-- CLOSE TITLE -->
 
-    <!-- ABOUT -->
-         <div class="row" id="about-desc"> 
-
-            <p>The Arkhives can be described as 
-            <h4> a library of living tales.</h4>
-            </p>
-            <p>
-            Each story has been created and constructed with <br />
-            CSS3 animations and JavaScript interactions,</p>
-
-            <p> thus bringing stories to life on any device with a browser.</p>
-
-
-        </div> <!-- CLOSE ABOUT -->
-
     <!-- SEARCH BAR -->
 
          <div id="searchbar">
 
             <div>
 
-                <h4>Enter keywords here to search or sort...</h4>
+                <h4>Enter search keywords here...</h4>
                 <input type="text" data-ng-model="searchStories.$" />
             
 
@@ -79,7 +64,7 @@
     <!-- STORIES CONTAINER -->
          <div data-ng-controller="MainCtrl" class="row stories" id="archive"> 
             
-             <div data-ng-repeat="story in stories | filter:searchStories" class="story-title eleven columns">
+             <div data-ng-repeat="story in stories | filter:searchStories" class="story-title twelve columns">
                 
                 <h1><a href="{{story.link}}">{{story.title}}</a></h1> 
                 <h5>Genre: {{story.genre}} | Audience: {{story.audience}}</h5>
@@ -92,7 +77,6 @@
         </div><!-- CLOSE STORIES CONTAINER-->
 
             
-       
     </div> <!-- CLOSE CONTAINER -->
 
 
