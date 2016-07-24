@@ -51,6 +51,10 @@ a:active {
     border-bottom: 3px solid #9c8844;
 }
 
+h3 {
+    font-size: 13px;
+}
+
 h1, h2, h4 {
     font-weight: 900;
 }
@@ -72,19 +76,47 @@ button {
     
     border-color: #9C8844;
 }
+
+
+/* MENU */
+
+#menu {
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    float: left;
+    z-index: 9000;
+}
+
+#menu ul{
+    width: 40%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+#menu li, #menu a:link, #menu a:visited{
+    list-style: none;
+    display: inline-block;
+    color: #efefef;
+    padding: 5px 10px;
+}
+
 /* NAVIGATION */
 
 #nav {
+    background-color: rgba(255,255,255, 0.4);
+    position: fixed;
     width: 100%;
-    margin: 20px auto;
+    top: 0;
+    z-index: 8999;
     text-align: center;
+    padding-top: 5%;
 }
 
-#nav li{
-    display: inline-block;
-    margin: 20px 10px;
+#nav a:link, a:visited{
+    color: #9c8844;
 }
-
 
 
 /* TITLE/LOGO WELCOME */
@@ -183,10 +215,14 @@ button {
 @media (min-width: 550px) {
 
     /* NAV */
+    #nav {
+        padding-top: 1%;
+    }
+
     #nav ul{
         width: 50%;
-        margin: 30px auto;
-        padding-top: 30px;
+        margin: 15px auto;
+        padding-top: 0;
         text-align: center;
     }
 
@@ -194,6 +230,12 @@ button {
         display: inline-block;
         margin: 0 10px;
     }
+    
+    #menu ul{
+    width: 50%;
+    margin: 0 auto;
+    }
+
 
     /* TITLE/LOGO WELCOME */
 
