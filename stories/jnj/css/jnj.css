@@ -2,8 +2,8 @@
 
 /* GLOBAL */
 
-
 h3 {
+	font-size: 18px;
 	text-align: center;
 	text-shadow: 2px 2px 4px #fff;
 	margin: 0;
@@ -22,7 +22,7 @@ h3 {
 }
 
 #menu ul{
-	width: 45%;
+	width: 40%;
 	margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ h3 {
 /* NAVIGATION */
 
 #nav {
-	background-color: rgba(255,255,255, 0.5);
+	background-color: rgba(255,255,255, 0.2);
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -44,24 +44,21 @@ h3 {
 }
 
 #nav ul{
-	width: 75%;
-	margin: 0 auto;
+	width: 100%;
+	margin: 0 -10%;
 }
 
 #nav li { 
-margin: 0 200px 30px 200px;
+	margin: 0 200px 30px 200px;
 }
 
 #nav a:link, a:visited{
 	color: #9c8844;
 }
 
-#share-link {
-	float: right;
-}
 
-#menu-link{
-	float: left;
+/*#menu-link{
+	float: right;
 }
 
 .clear {
@@ -85,9 +82,11 @@ margin: 0 200px 30px 200px;
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
-	background-size: ;
 }
 
+.page img{
+	width: 45%;
+}
 
 
 
@@ -96,36 +95,72 @@ margin: 0 200px 30px 200px;
 	margin: 100px;
 }
 
+.stories {
+    max-width: 960px;
+    width: 100%;
+    margin: 50px 0 50px 5%;
+}
+
 .story-container {
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
 }
 
-/*
-#page-01 { 
-	background-size: contain;
+
+/* Larger than tablet/mobile */
+
+@media (min-width: 550px) {
+	/* TEXT */
+	h3 {
+		font-size: 2em;
+
+	}
+    /* NAV */
+    #nav ul{
+        width: 50%;
+        margin: 15px auto;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #nav li{
+        display: inline-block;
+        margin: 0 10px;
+    }
 	
-}
-
-
-#page-01 img {
-	width: 45%;
-}
-
-/*#jnj-01-div {
-	width: 75%;
+	#menu ul{
+	width: 50%;
 	margin: 0 auto;
-	padding-left: 20%;
+	}
+
+    /* TITLE/LOGO WELCOME */
+
+    #title {
+        
+        width: 100%;
+        margin: 100px auto 200px auto;
+        text-align: center;
+    }
+
+    #logo {
+        max-width: 75%;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+
+    /* STORIES SECTION */
+    .stories {
+        max-width: 960px;
+        width: 100%;
+        margin: 100px 0 100px 5%;
+    }   
+
+    .page img{
+		width: 45%;
+	}
+
+
 }
-
-
-#page-02 {
-	background: url('../img/jnj-02-bg.png') no-repeat center center; 
-	background-size: contain;
-
-	margin-bottom: 100px;
-}*/
-
-
 

@@ -6,19 +6,26 @@ $(document).ready(function(){
     $('#menu').hide();
     
     // When 'SEARCH' link is clicked, the search bar pops up!
-    $('#menu-link').click(function(){
+    $('#menu-link').click( function (e)
+    {
 
+        e.preventDefault();
+        e.stopPropagation();
         //console.log('clicky');
         
         $('#menu').slideDown();
 
     });
 
-    $('#close-link').click(function(){
+    $('#close-link').click( function (e)
+    {
 
         //console.log('clicko');
-        
+        e.preventDefault();
+        e.stopPropagation();
+
         $('#menu').slideUp();
+
 
     });
 
