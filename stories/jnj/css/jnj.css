@@ -85,7 +85,9 @@ margin: 0 200px 30px 200px;
 	margin: 0 auto;
 	padding: 0;
 	width: 100%;
+	background-size: ;
 }
+
 
 
 
@@ -100,21 +102,18 @@ margin: 0 200px 30px 200px;
 	padding: 0;
 }
 
-/*.story-container img {
-	width: 25%;
-}*/
-
-#page-01 {
-	background: url('../img/jnj-01-bg.png') no-repeat center center; 
+/*
+#page-01 { 
 	background-size: contain;
 	
 }
 
+
 #page-01 img {
-	width: 25%;
+	width: 45%;
 }
 
-#jnj-01-div {
+/*#jnj-01-div {
 	width: 75%;
 	margin: 0 auto;
 	padding-left: 20%;
@@ -126,7 +125,7 @@ margin: 0 200px 30px 200px;
 	background-size: contain;
 
 	margin-bottom: 100px;
-}
+}*/
 
 
 
