@@ -9,19 +9,19 @@ app.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider
     .when("/", {
-	templateUrl: "/main.htm"
+	templateUrl: "main.htm"
       })
 
       .when("/about", {
-	templateUrl: "/about.htm"
+	templateUrl: "about.htm"
       })
 
       .when("/jnj", {
-	templateUrl: "/stories/jnj/index.html"
+	templateUrl: "stories/jnj/index.html"
       })
 
       .when("/sample", {
-	templateUrl: "/stories/sample/index.html"
+	templateUrl: "stories/sample/index.html"
       })
 
       .otherwise({
