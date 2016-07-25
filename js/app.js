@@ -11,11 +11,15 @@ app.config(['$routeProvider',
     .when("/", {
 	templateUrl: "main.htm"
       })
-
+      
+	.when("/searchbar", {
+	templateUrl: "main.htm#searchbar"
+      })
+      
       .when("/about", {
 	templateUrl: "about.htm"
       })
-
+	
       .when("/jnj", {
 	templateUrl: "stories/jnj/index.html"
       })
