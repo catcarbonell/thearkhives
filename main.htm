@@ -1,0 +1,38 @@
+<!-- MAIN PAGE -->
+
+    <!-- TITLE -->
+        <div class="row" id="title">
+                <img src="img/logo.png" alt="The ARKHIVES Logo" id="logo"/>
+        </div><!-- CLOSE TITLE -->
+
+    
+    <!-- SEARCH BAR -->
+
+         <div id="searchbar">
+
+            <div>
+
+                <h4>Enter keywords here to search or sort</h4>
+                <input type="text" data-ng-model="searchStories" />
+            
+
+            </div> <!--CLOSE MAINCTRL-->
+
+        </div><!-- CLOSE SEARCH -->
+
+    <!-- STORIES CONTAINER -->
+         <div data-ng-controller="MainCtrl" class="row stories" id="archive"> 
+            
+             <div data-ng-repeat="story in stories | filter:searchStories" class="story-title eleven">
+                
+                <h1><a href="{{story.link}}">{{story.title}}</a></h1> 
+                <h5>Genre: {{story.genre}} | Audience: {{story.audience}}</h5>
+
+
+             </div>
+
+
+        </div><!-- CLOSE STORIES CONTAINER-->
+
+
+

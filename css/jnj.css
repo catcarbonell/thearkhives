@@ -1,0 +1,11 @@
+/******** JACK AND JILL  ***********/
+
+#jnj-page-01 {
+	background: url('../stories/jnj/img/jnj-01-bg.png') center center no-repeat;
+	background-size: cover;
+}
+
+#jnj-page-02 {
+	background: url('../stories/jnj/img/jnj-02-bg.png') center center no-repeat;
+	background-size: cover;
+}

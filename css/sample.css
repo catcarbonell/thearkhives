@@ -1,0 +1,11 @@
+/******** YOU AND THE SAMPLE STORY  ***********/
+
+#sample-page-01 img,
+#sample-page-02 img,
+#sample-page-03 img {
+
+	width: 75%;
+	margin: 0 auto;
+	padding: 5%;
+
+}
