@@ -43,7 +43,7 @@ $(document).ready(function(){
     overlay : false,
     overlayClass : 'animsition-overlay-slide',
     overlayParentElement : 'body',
-    transition: function(url){ window.location.href = url; }
+    //transition: function(url){ window.location.href = url; }
   });
 
 
