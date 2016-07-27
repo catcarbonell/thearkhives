@@ -22,7 +22,7 @@ Web Final Project, Professor Jerry Jones for the Web Design and Development Bach
  * Design principles knowledge
  * Gestalt Principles
  
- ## Branched Development and Versioning
+## Branched Development and Versioning
 1. Master -- Pre-Staging -- a preview of what is to be published! Do not touch this branch without authorization. 
 
 2. gh-pages -- Production -- Do **NOT** TOUCH/PUSH ANYTHING TO THIS BRANCH WITHOUT AUTHORIZATION. 
