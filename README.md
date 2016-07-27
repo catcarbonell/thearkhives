@@ -1,7 +1,7 @@
 # The ARKHIVES
 Web Final Project, Professor Jerry Jones for the Web Design and Development Bachelor of Science Degree
 
-**Last stable version**: 1.0.0 established *7/28/2016*
+**Last stable version**: 1.0.0 established *7/27/2016*
 
 ## Server Setup Requirements:
 1. Ubuntu 12.04.5 LTS
