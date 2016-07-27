@@ -19,7 +19,7 @@ Web Final Project, Professor Jerry Jones for the Web Design and Development Bach
 ## Design skills are IMPERATIVE, especially for story illustrators!
 -- especially when submitting and designing a story!
  * Basic understanding of the color wheel
- * Design principles knowledge
+ * Design principles
  * Gestalt Principles
  
 ## Branched Development and Versioning
